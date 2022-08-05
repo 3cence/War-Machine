@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ecence/Documents/C++/War Machine/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/war.dir/main.cpp.o -c \"/home/ecence/Documents/C++/War Machine/main.cpp\"",
+  "file": "/home/ecence/Documents/C++/War Machine/main.cpp"
+}
+]
