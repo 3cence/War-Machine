@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ecence/Documents/C++/War Machine/main.cpp
+../headers/card.h
+
+/home/ecence/Documents/C++/War Machine/src/main.cpp
 iostream
 -
+vector
+-
+card.h
+/home/ecence/Documents/C++/War Machine/src/card.h
 

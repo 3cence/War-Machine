@@ -57,27 +57,27 @@ include CMakeFiles/war.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/war.dir/flags.make
 
-CMakeFiles/war.dir/main.cpp.o: CMakeFiles/war.dir/flags.make
-CMakeFiles/war.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ecence/Documents/C++/War Machine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/war.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/main.cpp.o -c "/home/ecence/Documents/C++/War Machine/main.cpp"
+CMakeFiles/war.dir/src/main.cpp.o: CMakeFiles/war.dir/flags.make
+CMakeFiles/war.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ecence/Documents/C++/War Machine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/war.dir/src/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/main.cpp.o -c "/home/ecence/Documents/C++/War Machine/src/main.cpp"
 
-CMakeFiles/war.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ecence/Documents/C++/War Machine/main.cpp" > CMakeFiles/war.dir/main.cpp.i
+CMakeFiles/war.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ecence/Documents/C++/War Machine/src/main.cpp" > CMakeFiles/war.dir/src/main.cpp.i
 
-CMakeFiles/war.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ecence/Documents/C++/War Machine/main.cpp" -o CMakeFiles/war.dir/main.cpp.s
+CMakeFiles/war.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ecence/Documents/C++/War Machine/src/main.cpp" -o CMakeFiles/war.dir/src/main.cpp.s
 
 # Object files for target war
 war_OBJECTS = \
-"CMakeFiles/war.dir/main.cpp.o"
+"CMakeFiles/war.dir/src/main.cpp.o"
 
 # External object files for target war
 war_EXTERNAL_OBJECTS =
 
-war: CMakeFiles/war.dir/main.cpp.o
+war: CMakeFiles/war.dir/src/main.cpp.o
 war: CMakeFiles/war.dir/build.make
 war: CMakeFiles/war.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ecence/Documents/C++/War Machine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable war"

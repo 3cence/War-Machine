@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ecence/Documents/C++/War Machine'
+make: Leaving directory '/home/ecence/Documents/C++/War Machine'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

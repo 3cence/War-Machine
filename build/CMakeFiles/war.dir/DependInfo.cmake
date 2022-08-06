@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ecence/Documents/C++/War Machine/main.cpp" "/home/ecence/Documents/C++/War Machine/build/CMakeFiles/war.dir/main.cpp.o"
+  "/home/ecence/Documents/C++/War Machine/src/main.cpp" "/home/ecence/Documents/C++/War Machine/build/CMakeFiles/war.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../headers"
   )
 
 # Targets to which this target links.
